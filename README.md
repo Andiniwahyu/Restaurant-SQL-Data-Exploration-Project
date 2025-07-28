@@ -1,47 +1,32 @@
-# 🍽️ Restaurant SQL Basic Data Analysis
+# Restaurant SQL Basic Data Analysis
 
-A basic data exploration project using PostgreSQL to analyze customer behavior and menu performance from restaurant orders data.
+## 1. Project Background
+This project focuses on basic data exploration using PostgreSQL to analyze customer behavior and menu performance from restaurant order data. The objective is to gain insights from restaurant transactional data by exploring ordering trends and menu profitability. This analysis helps in understanding customer preferences and optimizing menu offerings for better business outcomes.
 
----
+## 2. Data Structure
+The analysis utilizes a dataset provided by Maven Analytics, consisting of two main tables:
 
-## 📊 Objective
+*   **`menu_items`**: Contains details about menu items, including `item_names`, `categories` (e.g., Italian, Asian), and `prices`.
+*   **`order_details`**: Contains information about customer orders, including `order_IDs`, `order_time`, and `items_ordered`.
 
-To gain insights from restaurant transactional data by exploring ordering trends and menu profitability.
+This structure allows for joining menu information with order details to analyze sales, popularity, and profitability of different dishes.
 
----
-## 📂 Dataset Source
+## 3. Executive Summary
+This project explores restaurant transactional data to uncover insights into customer ordering trends and menu profitability. By analyzing menu items and order details, the project aims to provide a foundational understanding of which dishes are most popular, which are most profitable, and how customer spending habits relate to menu categories. The findings highlight key aspects of menu performance and customer behavior, offering actionable intelligence for restaurant management.
 
-The dataset used in this project is provided by [Maven Analytics](https://www.mavenanalytics.io/) as part of their free data projects for learning purposes.
+## 4. Insights
 
-## 🧾 Dataset
+Based on the data exploration, several key findings and insights emerged:
 
-This project uses two main tables:
+*   **Italian dishes are the priciest on the menu.** This indicates a higher revenue potential per order for these items.
+*   **Hamburgers (American) and Edamame (Asian) are the most ordered items.** These dishes represent high-volume sellers, suggesting strong customer demand.
+*   **Among the top 5 highest-spending orders, most items were Italian dishes.** This finding is crucial as it links higher-priced items with high-value customers.
 
-- `menu_items`: Contains item names, categories (e.g., Italian, Asian), and prices.
-- `order_details`: Contains order IDs, order time, and items ordered.
+**Insight:** Despite being more expensive, Italian food consistently attracts high-spending customers. This suggests that customers are willing to pay a premium for Italian dishes, making them a significant contributor to overall revenue, especially from high-value orders.
 
----
+## 5. Recommendations
 
-## 🔍 Key Findings
+Based on the insights, the following recommendation is provided:
 
-✅ **Italian dishes are the priciest** on the menu  
-✅ **Hamburgers** (American) and **Edamame** (Asian) are the most ordered items  
-✅ Among the **top 5 highest-spending orders**, most items were **Italian dishes**
+*   **Keep Italian dishes on the menu.** They are not just profitable due to their higher pricing, but they are also a top choice for high-value customers who generate significant revenue. Maintaining and potentially promoting these dishes can further enhance profitability and cater to a valuable customer segment.
 
----
-
-## 💡 Insight
-
-Despite being more expensive, **Italian food consistently attracts high-spending customers**.
-
----
-
-## 📌 Recommendation
-
-**Keep Italian dishes on the menu.** They're not just profitable — they're a top choice for **high-value customers** who generate significant revenue.
-
----
-
-## 📸 Preview
-
-![Customer Behaviour Analysis](SQL-Restaurant-Data-Exploration/Preview_Restaurant.png)
