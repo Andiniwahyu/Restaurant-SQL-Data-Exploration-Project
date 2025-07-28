@@ -14,6 +14,8 @@ This structure allows for joining menu information with order details to analyze
 ## 3. Executive Summary
 This project explores restaurant transactional data to uncover insights into customer ordering trends and menu profitability. By analyzing menu items and order details, the project aims to provide a foundational understanding of which dishes are most popular, which are most profitable, and how customer spending habits relate to menu categories. The findings highlight key aspects of menu performance and customer behavior, offering actionable intelligence for restaurant management.
 
+![SQL Preview](SQL-Restaurant-Data-Exploration/Preview-Restaurant.png)
+
 ## 4. Insights
 
 Based on the data exploration, several key findings and insights emerged:
